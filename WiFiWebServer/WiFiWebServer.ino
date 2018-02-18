@@ -5,6 +5,10 @@
  *    http://server_ip/gpio/1 will set the GPIOnumber high
  *  server_ip is the IP address of the ESP8266 module, will be 
  *  printed to Serial when the module is connected.
+ *  
+ *  HOW TO USE:
+ *  Open web browser on any devices in local network, type your "server_ip eg.: 192.168.0.18 and then /gpio and desired state /0 or /1
+ *  The full request from web browser should looks like that: 192.168.0.18/gpio/1
  */
 
 #include <ESP8266WiFi.h>
